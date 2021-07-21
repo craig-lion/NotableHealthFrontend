@@ -1,0 +1,22 @@
+FrontEnd ToDo
+
+x Data Delivery
+  x get Physicians Data from server
+    x create useQuery for physicians
+    x create data object for physicians
+  - get Appointment data from server
+    x create useQuery for appointments
+    x create data object for appointments
+
+- Rendering
+  x Has two columns
+    - left side lists physicians
+      x Top Div with Notable in it
+      - list titled "Physicians"
+      - list of physicians
+        - can click on each name
+    - right side provides details about appointments
+      - Dr. name on top in large letters
+      - email address underneath
+      - table with appointment information
+        - 4 cols, (AptId, PatientName, AptTime, AptKind)
